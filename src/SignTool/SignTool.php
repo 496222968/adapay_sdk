@@ -6,9 +6,8 @@ use cccdl\adapay\Core\BaseCore;
 
 class SignTool extends BaseCore
 {
-    public function checkSign(): bool
+    public function checkSign(array $notify): bool
     {
-        $notify = $_POST;
         $data = $notify['data'];
         $signature = $notify['sign'] ?? '';
         return $this->verifySign($signature, $data);
