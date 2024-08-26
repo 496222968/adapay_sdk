@@ -3,7 +3,7 @@
 namespace dwc\adapay\Test\Sign;
 
 use dwc\adapay\Core\AdapayConfig;
-use dwc\adapay\Exception\dwcException;
+use dwc\adapay\Exception\DwcException;
 use dwc\adapay\SignTool\SignTool;
 use dwc\adapay\Test\Config;
 use PHPUnit\Framework\TestCase;
@@ -14,7 +14,7 @@ class ClientTest extends TestCase
 {
     /**
      * @return void
-     * @throws dwcException
+     * @throws DwcException
      */
     public function testVerifySign(): void
     {

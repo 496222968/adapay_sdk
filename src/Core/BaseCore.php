@@ -2,7 +2,7 @@
 
 namespace dwc\adapay\Core;
 
-use dwc\adapay\Exception\dwcException;
+use dwc\adapay\Exception\DwcException;
 use dwc\adapay\Traits\Request;
 use Exception;
 
@@ -48,13 +48,13 @@ class BaseCore
 
 
     /**
-     * @throws dwcException
+     * @throws DwcException
      */
     public function __construct($adapayConfig)
     {
 
         if (!($adapayConfig instanceof AdapayConfig)) {
-            throw new dwcException('配置异常');
+            throw new DwcException('配置异常');
         }
 
         $this->adapayConfig = $adapayConfig;

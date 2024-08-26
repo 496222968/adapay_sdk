@@ -3,7 +3,7 @@
 namespace dwc\adapay\Test\Member;
 
 use dwc\adapay\Core\AdapayConfig;
-use dwc\adapay\Exception\dwcException;
+use dwc\adapay\Exception\DwcException;
 use dwc\adapay\Member\Member;
 use dwc\adapay\Test\Config;
 use GuzzleHttp\Exception\GuzzleException;
@@ -16,7 +16,7 @@ class ClientTest extends TestCase
     /**
      * @return void
      * @throws GuzzleException
-     * @throws dwcException
+     * @throws DwcException
      */
     public function testQuery(): void
     {

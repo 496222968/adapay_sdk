@@ -1,7 +1,7 @@
 <?php
 
 use dwc\adapay\Core\AdapayConfig;
-use dwc\adapay\Exception\dwcException;
+use dwc\adapay\Exception\DwcException;
 use dwc\adapay\Payment\Payment;
 use dwc\adapay\Test\Config;
 use PHPUnit\Framework\TestCase;
@@ -39,7 +39,7 @@ class ClientTest extends TestCase
     /**
      * @return void
      * @throws GuzzleException
-     * @throws dwcException
+     * @throws DwcException
      */
     public function testQuery(): void
     {
