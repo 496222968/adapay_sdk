@@ -1,8 +1,8 @@
 <?php
 
-namespace cccdl\adapay\Settle;
+namespace dwc\adapay\Settle;
 
-use cccdl\adapay\Core\BaseCore;
+use dwc\adapay\Core\BaseCore;
 use GuzzleHttp\Exception\GuzzleException;
 
 class SettleAccount extends BaseCore

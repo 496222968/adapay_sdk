@@ -1,9 +1,9 @@
 <?php
 
-use cccdl\adapay\Core\AdapayConfig;
-use cccdl\adapay\Exception\cccdlException;
-use cccdl\adapay\Payment\Payment;
-use cccdl\adapay\Test\Config;
+use dwc\adapay\Core\AdapayConfig;
+use dwc\adapay\Exception\dwcException;
+use dwc\adapay\Payment\Payment;
+use dwc\adapay\Test\Config;
 use PHPUnit\Framework\TestCase;
 
 require '../../../vendor/autoload.php';
@@ -39,7 +39,7 @@ class ClientTest extends TestCase
     /**
      * @return void
      * @throws GuzzleException
-     * @throws cccdlException
+     * @throws dwcException
      */
     public function testQuery(): void
     {

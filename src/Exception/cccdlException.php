@@ -1,11 +1,11 @@
 <?php
 
 
-namespace cccdl\adapay\Exception;
+namespace dwc\adapay\Exception;
 
 use Exception;
 
-class cccdlException extends Exception
+class dwcException extends Exception
 {
 
 }

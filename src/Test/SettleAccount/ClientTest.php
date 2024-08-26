@@ -1,10 +1,10 @@
 <?php
 
-namespace cccdl\adapay\Test\SettleAccount;
+namespace dwc\adapay\Test\SettleAccount;
 
-use cccdl\adapay\Core\AdapayConfig;
-use cccdl\adapay\Settle\SettleAccount;
-use cccdl\adapay\Test\Config;
+use dwc\adapay\Core\AdapayConfig;
+use dwc\adapay\Settle\SettleAccount;
+use dwc\adapay\Test\Config;
 use PHPUnit\Framework\TestCase;
 
 require '../../../vendor/autoload.php';

@@ -1,8 +1,8 @@
 <?php
 
-namespace cccdl\adapay\PaymentReverse;
+namespace dwc\adapay\PaymentReverse;
 
-use cccdl\adapay\Core\BaseCore;
+use dwc\adapay\Core\BaseCore;
 use GuzzleHttp\Exception\GuzzleException;
 
 class PaymentReverse extends BaseCore

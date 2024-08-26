@@ -1,8 +1,8 @@
 <?php
 
-namespace cccdl\adapay\Member;
+namespace dwc\adapay\Member;
 
-use cccdl\adapay\Core\BaseCore;
+use dwc\adapay\Core\BaseCore;
 use GuzzleHttp\Exception\GuzzleException;
 
 class Member extends BaseCore

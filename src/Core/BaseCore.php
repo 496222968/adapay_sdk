@@ -1,9 +1,9 @@
 <?php
 
-namespace cccdl\adapay\Core;
+namespace dwc\adapay\Core;
 
-use cccdl\adapay\Exception\cccdlException;
-use cccdl\adapay\Traits\Request;
+use dwc\adapay\Exception\dwcException;
+use dwc\adapay\Traits\Request;
 use Exception;
 
 class BaseCore
@@ -48,13 +48,13 @@ class BaseCore
 
 
     /**
-     * @throws cccdlException
+     * @throws dwcException
      */
     public function __construct($adapayConfig)
     {
 
         if (!($adapayConfig instanceof AdapayConfig)) {
-            throw new cccdlException('配置异常');
+            throw new dwcException('配置异常');
         }
 
         $this->adapayConfig = $adapayConfig;

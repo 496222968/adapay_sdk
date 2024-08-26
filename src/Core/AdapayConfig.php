@@ -1,6 +1,6 @@
 <?php
 
-namespace cccdl\adapay\Core;
+namespace dwc\adapay\Core;
 
 class AdapayConfig
 {

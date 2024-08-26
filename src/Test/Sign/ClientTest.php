@@ -1,11 +1,11 @@
 <?php
 
-namespace cccdl\adapay\Test\Sign;
+namespace dwc\adapay\Test\Sign;
 
-use cccdl\adapay\Core\AdapayConfig;
-use cccdl\adapay\Exception\cccdlException;
-use cccdl\adapay\SignTool\SignTool;
-use cccdl\adapay\Test\Config;
+use dwc\adapay\Core\AdapayConfig;
+use dwc\adapay\Exception\dwcException;
+use dwc\adapay\SignTool\SignTool;
+use dwc\adapay\Test\Config;
 use PHPUnit\Framework\TestCase;
 
 require '../../../vendor/autoload.php';
@@ -14,7 +14,7 @@ class ClientTest extends TestCase
 {
     /**
      * @return void
-     * @throws cccdlException
+     * @throws dwcException
      */
     public function testVerifySign(): void
     {

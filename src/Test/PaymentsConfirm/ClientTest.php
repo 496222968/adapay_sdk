@@ -1,10 +1,10 @@
 <?php
 
-namespace cccdl\adapay\Test\Payments;
+namespace dwc\adapay\Test\Payments;
 
-use cccdl\adapay\Core\AdapayConfig;
-use cccdl\adapay\PaymentsConfirm\PaymentsConfirm;
-use cccdl\adapay\Test\Config;
+use dwc\adapay\Core\AdapayConfig;
+use dwc\adapay\PaymentsConfirm\PaymentsConfirm;
+use dwc\adapay\Test\Config;
 use PHPUnit\Framework\TestCase;
 
 

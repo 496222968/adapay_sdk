@@ -1,6 +1,6 @@
 <?php
 
-namespace cccdl\adapay\Test;
+namespace dwc\adapay\Test;
 
 class Config
 {

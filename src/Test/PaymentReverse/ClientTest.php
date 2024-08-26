@@ -1,10 +1,10 @@
 <?php
 
-namespace cccdl\adapay\Test\PaymentReverse;
+namespace dwc\adapay\Test\PaymentReverse;
 
-use cccdl\adapay\Core\AdapayConfig;
-use cccdl\adapay\PaymentReverse\PaymentReverse;
-use cccdl\adapay\Test\Config;
+use dwc\adapay\Core\AdapayConfig;
+use dwc\adapay\PaymentReverse\PaymentReverse;
+use dwc\adapay\Test\Config;
 use PHPUnit\Framework\TestCase;
 
 require '../../../vendor/autoload.php';

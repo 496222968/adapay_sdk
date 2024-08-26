@@ -1,8 +1,8 @@
 <?php
 
-use cccdl\adapay\Core\AdapayConfig;
-use cccdl\adapay\Refund\Refund;
-use cccdl\adapay\Test\Config;
+use dwc\adapay\Core\AdapayConfig;
+use dwc\adapay\Refund\Refund;
+use dwc\adapay\Test\Config;
 use PHPUnit\Framework\TestCase;
 
 require '../../../vendor/autoload.php';

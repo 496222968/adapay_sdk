@@ -1,11 +1,11 @@
 <?php
 
-namespace cccdl\adapay\Test\Member;
+namespace dwc\adapay\Test\Member;
 
-use cccdl\adapay\Core\AdapayConfig;
-use cccdl\adapay\Exception\cccdlException;
-use cccdl\adapay\Member\Member;
-use cccdl\adapay\Test\Config;
+use dwc\adapay\Core\AdapayConfig;
+use dwc\adapay\Exception\dwcException;
+use dwc\adapay\Member\Member;
+use dwc\adapay\Test\Config;
 use GuzzleHttp\Exception\GuzzleException;
 use PHPUnit\Framework\TestCase;
 
@@ -16,7 +16,7 @@ class ClientTest extends TestCase
     /**
      * @return void
      * @throws GuzzleException
-     * @throws cccdlException
+     * @throws dwcException
      */
     public function testQuery(): void
     {

@@ -6,7 +6,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "cccdl\\adapay\\": "src/"
+      "dwc\\adapay\\": "src/"
     }
   },
   "keywords": [
@@ -25,7 +25,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "cccdl\\adapay\\Test\\": "./src/Test"
+      "dwc\\adapay\\Test\\": "./src/Test"
     }
   }
 }

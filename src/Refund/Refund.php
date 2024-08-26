@@ -1,8 +1,8 @@
 <?php
 
-namespace cccdl\adapay\Refund;
+namespace dwc\adapay\Refund;
 
-use cccdl\adapay\Core\BaseCore;
+use dwc\adapay\Core\BaseCore;
 use GuzzleHttp\Exception\GuzzleException;
 
 class Refund extends BaseCore

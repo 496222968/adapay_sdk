@@ -1,6 +1,6 @@
 <?php
 
-namespace cccdl\adapay\Traits;
+namespace dwc\adapay\Traits;
 
 
 use GuzzleHttp\Client;

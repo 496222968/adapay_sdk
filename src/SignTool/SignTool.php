@@ -1,8 +1,8 @@
 <?php
 
-namespace cccdl\adapay\SignTool;
+namespace dwc\adapay\SignTool;
 
-use cccdl\adapay\Core\BaseCore;
+use dwc\adapay\Core\BaseCore;
 
 class SignTool extends BaseCore
 {

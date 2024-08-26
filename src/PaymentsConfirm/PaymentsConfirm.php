@@ -1,8 +1,8 @@
 <?php
 
-namespace cccdl\adapay\PaymentsConfirm;
+namespace dwc\adapay\PaymentsConfirm;
 
-use cccdl\adapay\Core\BaseCore;
+use dwc\adapay\Core\BaseCore;
 use GuzzleHttp\Exception\GuzzleException;
 
 class PaymentsConfirm extends BaseCore
