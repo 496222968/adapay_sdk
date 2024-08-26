@@ -1,5 +1,5 @@
 {
-  "name": "dwc/adapay_sdk",
+  "name": "dwc/adapay",
   "description": "汇付天下",
   "homepage": "https://github.com/496222968/adapay_sdk.git",
   "type": "library",
