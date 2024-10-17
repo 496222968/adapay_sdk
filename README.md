@@ -43,6 +43,7 @@ $ composer require dwc/adapay
 | Payment.php         | `query()`     | 查询支付对象     |
 | Payment.php         | `queryList()` | 查询支付对象列表   |
 | Payment.php         | `close()`     | 创建支付关单     |
+| Common.php          | `create()`    | 其它接口       |
 | SignTool.php        | `checkSign()` | 验签是否正确     |
 
 ### 快速使用
